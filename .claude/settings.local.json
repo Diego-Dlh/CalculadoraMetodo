@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem \"c:\\\\Users\\\\diego\\\\OneDrive\\\\Desktop\\\\DEV\\\\CalculadoraMetodo\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "PowerShell(flutter --version 2>&1)",
+      "PowerShell(flutter --version)",
+      "PowerShell(Get-ChildItem \"$env:TEMP\\\\cmdline-tools-extract\" -Force | Select-Object FullName, PSIsContainer)"
+    ]
+  }
+}
